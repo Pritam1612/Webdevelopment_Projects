@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kalnia+Glaze:wght@100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    min-height: 100vh;
+    max-width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: 400;
+    font-style: normal;
+    color: #1c1b1b;
+    background: #fff;
+    line-height: 1.65;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header a{
+    text-decoration: none;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dbcac0;
+    padding: 5px 0;
+}
+.header-middle-section{
+    font-size: 0.65rem;
+    letter-spacing: 3px;
+}
+
+.header-right-section p a{
+    font-size: 0.8rem;
+    color: black;
+    margin-right: 20px;
+}
+.header-middle{
+      background: lightgray;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     color: white;
+     padding: 10px 60px;
+}
+.header-left-section{
+    display: flex;
+    gap: 4px;
+
+}
+.header-left-section select{
+    border: none;
+    background-color: transparent;
+    color: white;
+   
+}
+
+.header-middle-section h2{
+    font-size: 1.6rem;
+    letter-spacing: 1rem;
+    font-weight: 100;
+}
+
+.header-right-section > img{
+   margin-right: 30px;
+}
+.header-bottom{
+    background: lightgray;
+    border-top: 1px solid white;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.header-bottom ul{
+    width: 80%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header-bottom ul li a{
+    color: white;
+    font-weight: 200;
+    font-size: 0.89rem;
+    letter-spacing: 0.1rem;
+}
+.header-bottom ul li:last-child{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.6rem;
+}
+.header-bottom ul li a:hover{
+    padding: 11px 10px;
+    background-color: bisque;
+    color: black;
+}
+
+/***** main Start Section *****/ 
+
+main{
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 60px;
+    
+}
+.main-container .heading-section{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.heading-section h1{
+    font-size: 1.5rem;
+    letter-spacing: 6px;
+    font-weight: 350;
+}
+.heading-section p{
+    width: 37%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.product-conatiner{
+    display: flex;
+    
+}
+/***** left start Section *****/ 
+
+.section h2{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    
+}
+.option{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 4px;
+}
+.option a{
+    text-decoration: none;
+    display: flex;
+    gap: 5px;
+    font-size: 0.9rem;
+    color: gray;
+    padding-left: 10px;
+}
+.main-container-left{
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+    
+}
+.main-container-left-box{
+    width: 96.3%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 8px;
+    
+}
+
+ /***** left End section  *****/
+
+
+/***** right Section start *****/  
+
+.main-container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 84%;
+    padding-right: 40px;
+}
+/* product section */
+
+.category select{
+    /*margin-left: 10px;
+    */width: 250px;
+    margin-left: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 0;
+    border: 1px solid gray;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.product-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.img-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ .img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    gap: 20px;
+ }
+.img-container img{
+    width: 93%;
+}
+
+.img-container p a, .img-container span{
+   
+    text-decoration: none;
+    color: gray;
+    font-weight: 300;
+    letter-spacing: 1.3px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+.img-container p a {
+    color: black;
+    font-weight: 400;
+    
+}
+/***** right End Section *****/
+/* main section end */
+
+/* footer */
+.footer-top{
+    display: flex;
+    justify-content: space-around;
+    background-color: #dbcac0;
+    padding: 30px 30px 20px 30px;
+}
+.footer-top p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 100;
+}
+.footer-top p img{
+    max-width: 20%;
+}
+.footer-middle{
+    display: flex;
+    background-color: #dbcac0;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #000;
+    
+}
+.middle-discription{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 90%;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+.middle-discription h2{
+    color: white;
+    font-size: 1.6rem;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+   
+}
+.middle-discription a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 5px;
+}
+.middle-discription a img{
+    color: white;
+   
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+.footer-bottom{
+    display: flex;
+    gap: 15px;
+    padding: 20px 40px;
+    background-color: gray;
+    
+}
+.fotter-section1{
+    width: 338px;
+    
+}
+.fotter-section1 .top{
+    display: flex;
+    justify-content: space-between;
+    width: 338px;
+    
+}
+.middle p{
+    font-size: 0.9rem;
+}
+.fotter-section1 .top a img{
+    width: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.fotter-section2{
+    width: 454px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section2-grid{
+    width: 454px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    padding: 5px 20px;
+    font-size: 0.9rem;
+}
+
+.fotter-section3{
+    width: 227px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    font-size: 0.8rem;
+}
+.fotter-section4{
+    width: 348px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.fotter-section4 span, .fotter-section4 a{
+    font-size: 0.8rem;
+}
+.fotter-section4 span, .fotter-section4  a{
+    padding-left: 10px;
+}
+.fotter-section1 .top p{
+    font-size: 2rem;
+    letter-spacing: 10px;
+    font-weight: 100;
+}
+.fotter-section2 p, .fotter-section3 p , .fotter-section4 p{
+    font-size: 1.2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/***** footer End Section *****/
